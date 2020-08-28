@@ -45,3 +45,12 @@ class Matriz(val msg: String) {
 }
 
 fun segredo(msg: String): String = Matriz(msg).gira().extrai()
+
+fun main() {
+    val n: Int = readLine()?.toInt()?:0
+    val msgs: ArrayList<String> = ArrayList()
+    for (i in 1..n)
+        msgs.add( readLine() ?: "")
+
+    msgs.map(::segredo).map(::println)
+}
