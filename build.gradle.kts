@@ -8,6 +8,7 @@ version = "0.1"
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 tasks.withType<KotlinCompile>() {
@@ -18,7 +19,7 @@ tasks.withType<Test> {
     useJUnitPlatform()
 }
 
-val kotest_version = "4.2.1"
+val kotest_version = "4.2.0"
 dependencies {
     testImplementation("io.kotest:kotest-runner-junit5:$kotest_version") // for kotest framework
     testImplementation("io.kotest:kotest-assertions-core:$kotest_version") // for kotest core jvm assertions
