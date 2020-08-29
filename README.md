@@ -8,7 +8,7 @@
 *  https://open.kattis.com/problems/secretmessage
     * Dificuldade = 1.7
     * Arquivo: `src/main/kotlin/secreto.kt`
-    * Testes: `src/test/kotlin/testesSeguro.kt`
+    * Testes: `src/test/kotlin/testesSecreto.kt`
 
 ## Instruções 
 
@@ -35,6 +35,12 @@ Com testes = +0,5 ponto por exercício
     * 1.9
 * https://open.kattis.com/problems/sumoftheothers
     * 2.0
+* https://open.kattis.com/problems/commercials
+    * 2.0
+* https://open.kattis.com/problems/plantingtrees
+    * 2.0
 * https://open.kattis.com/problems/islands
     * 2.6
+* https://open.kattis.com/problems/awkwardparty
+    * 3.0
 
