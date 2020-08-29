@@ -6,6 +6,7 @@ class Matriz(val msg: String) {
     val tam: Int = msg.length.toDouble().let { ceil(sqrt(it)) }.toInt()
     var dados: Array<CharArray> = Array(tam) { CharArray(tam) }
 
+    // ajuda no REPL; visualização das matrizes
     override fun toString(): String {
         var res:StringBuilder = StringBuilder(tam*tam + tam + 1)
         res.append('\n')
