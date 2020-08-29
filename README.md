@@ -1,39 +1,40 @@
 # Roteiro
 
 ## Exercícios resolvidos
-* Frio
-    * Nível: iniciante
-    * https://open.kattis.com/problems/cold
-* Secreto
-    * Nível: intermediário
-    * https://open.kattis.com/problems/secretmessage
-*
+* https://open.kattis.com/problems/cold
+    * Dificuldade = 1.3
+    * Arquivo: `src/main/kotlin/frio.kt`
+    * Testes: `src/test/kotlin/testesFrio.kt`
+*  https://open.kattis.com/problems/secretmessage
+    * Dificuldade = 1.7
+    * Arquivo: `src/main/kotlin/secreto.kt`
+    * Testes: `src/test/kotlin/testesSeguro.kt`
 
-## Exercícios propostos
-* `servidor`
-    * Nível: iniciante
-    * https://open.kattis.com/problems/server
-* `diff`
-    * Nível: iniciante
-    * https://open.kattis.com/problems/detaileddifferences
-* `somas`
-    * Nível: iniciante
-    * https://open.kattis.com/problems/sumoftheothers
-* filar
-    * Nível: iniciante
-    * https://open.kattis.com/problems/freefood
+## Instruções 
 
-## Orientações 
-
-Escolha um dos "esquemas" abaixo para cumprir esta tarefa.
+Há uma lista de exercícios propostos. Escolha um ou dois para resolver.
+A pontuação final depende da quantidade e dificuldade.
 
 Não se acanhe de fazer o mínimo se for preciso. Considere a sua carga de trabalho atual.
 
-Esquema | Valor
---------|------
-1 iniciante | 6 pontos
-2 iniciante | 7,5 pontos
-1 intermediário | 8,5 pontos
-2 intermediário | 9,5 pontos
+Escolhas | Pontuação
+---------|----------
+1 <2.0   | 6 pontos
+2 <2.0   | 7,5 pontos
+1 >=2.0  | 8,5 pontos
+2 >=2.0  | 9,5 pontos
 
 Com testes = +0,5 ponto por exercício
+
+## Exercícios propostos
+* https://open.kattis.com/problems/freefood
+    * 1.4
+* https://open.kattis.com/problems/detaileddifferences
+    * 1.4
+* https://open.kattis.com/problems/server
+    * 1.9
+* https://open.kattis.com/problems/sumoftheothers
+    * 2.0
+* https://open.kattis.com/problems/islands
+    * 2.6
+
