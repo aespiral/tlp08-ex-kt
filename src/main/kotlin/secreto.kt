@@ -56,7 +56,7 @@ import kotlin.math.sqrt
 
 fun segredo(msg: String): String {
     val tam: Int = msg.length.toDouble().let { ceil(sqrt(it)) }.toInt()
-    val llvazia: List<List<Char>> = List(tam) { mutableListOf() }
+    val llvazia: List<List<Char>> = List(tam) { listOf() }
     fun f(acc: List<List<Char>>, lstnha: List<Char>): List<List<Char>> =
             acc.zip(lstnha).map { (l, c) -> l.plus(listOf(c))}
     return msg
